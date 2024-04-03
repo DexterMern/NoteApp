@@ -1,0 +1,78 @@
+body{
+    background-color: azure;
+}
+.container{
+    display: grid;
+    
+}
+.title{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: greenyellow;
+}
+.input-box{
+    text-align: center;
+}
+#NoteApp-input{
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.circle{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    height: 3vh;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.color {
+    border-radius: 100%;
+    width: 5%;
+    padding: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-left: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa-plus-square-o{
+    border: 4px solid;
+    padding: 4px;
+    color: aqua;
+    font-size: 50px;
+    cursor: pointer;
+}
+.fa-eraser{
+    border: 4px solid;
+    padding: 2px;
+    color: red;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.note-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 50px;
+    border: 4px double black;
+    font-weight: bolder;
+}
